@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kỷ Niệm Thanh Xuân 12A2</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+
+    cursor: none;
+
+    font-family:'Baloo 2', cursive;
+    background:linear-gradient(180deg,#ffd6ec 0%,#d6f0ff 40%,#fff5c2 100%);
+    overflow-x:hidden;
+    color:#444;
+}
+
+
+.contact-link {
+    text-decoration: none;
+    display: block;
+    width: 85%;
+    margin: 60px auto;
+}
+
+/* Khung chính */
+.contact-box {
+    background: linear-gradient(135deg, #ff9ecf, #ffd6ec, #b5e3ff);
+    background-size: 200% 200%;
+    animation: gradientMove 6s ease infinite;
+
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+
+    border: 5px dashed white;   /* viền cute */
+    box-shadow: 0 15px 35px rgba(255, 105, 180, 0.3);
+
+    transition: 0.4s ease;
+    position: relative;
+}
+
+/* Hover nổi bật */
+.contact-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 45px rgba(255, 20, 147, 0.4);
+}
+
+/* Tiêu đề */
+.contact-box h2 {
+    font-size: 32px;
+    color: #ff2f92;
+    text-shadow: 2px 2px 0 white;
+}
+
+/* Nội dung */
+.contact-box p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #5a2a82;
+}
+
+/* Nút bên trong */
+.contact-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: white;
+    color: #ff2f92;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.contact-box:hover .contact-btn {
+    background: #ff2f92;
+    color: white;
+}
+
+/* Animation nền chuyển màu */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Animation nền chuyển màu */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.contact-box::before {
+    content: "🌸 ✨ 💖 ✨ 🌸";
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.contact-link {
+    text-decoration: none;
+    display: block;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.contact-box {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+
+.contact-box h2 {
+    color: #ff3c8d;
+    font-size: 30px;
+}
+
+.contact-box p {
+    color: #5a2a82;
+    margin-top: 15px;
+}
+
+.contact-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.contact-box {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+}
+
+
+/* 🌈 CẦU VỒNG */
+.rainbow{
+    position:fixed;
+    top:-120px;
+    left:50%;
+    transform:translateX(-50%);
+    width:600px;
+    height:300px;
+    border-radius:300px 300px 0 0;
+    background:conic-gradient(red,orange,yellow,green,blue,indigo,violet,red);
+    opacity:0.15;
+    z-index:-3;
+}
+
+/* ☁ MÂY */
+.cloud{
+    position:fixed;
+    background:white;
+    border-radius:50%;
+    opacity:0.8;
+    z-index:-2;
+    animation:cloudMove linear infinite;
+}
+
+.cloud::before,
+.cloud::after{
+    content:"";
+    position:absolute;
+    background:white;
+    border-radius:50%;
+}
+
+.cloud::before{
+    width:60%;
+    height:60%;
+    top:-30%;
+    left:20%;
+}
+.cloud::after{
+    width:50%;
+    height:50%;
+    top:-20%;
+    right:15%;
+}
+
+@keyframes cloudMove{
+    from{transform:translateX(-200px);}
+    to{transform:translateX(120vw);}
+}
+
+/* 🌸 KHUNG LIÊN HỆ NỔI BẬT */
+.contact-highlight{
+    text-align:center;
+    padding:60px 40px;
+    border-radius:30px;
+    background:linear-gradient(135deg,#ffb6d9,#a0e7ff);
+    color:white;
+    box-shadow:0 25px 60px rgba(0,0,0,0.2);
+    position:relative;
+    overflow:hidden;
+}
+
+/* hiệu ứng ánh sáng nhẹ */
+.contact-highlight::before{
+    content:"";
+    position:absolute;
+    top:-50%;
+    left:-50%;
+    width:200%;
+    height:200%;
+    background:radial-gradient(circle,rgba(255,255,255,0.3),transparent 60%);
+    transform:rotate(25deg);
+}
+
+.contact-highlight h2{
+    color:white;
+    margin-bottom:15px;
+    font-size:2.2rem;
+    text-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contact-highlight p{
+    max-width:600px;
+    margin:0 auto 30px;
+    font-size:1.1rem;
+}
+
+/* nút nổi bật */
+.contact-btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:white;
+    color:#ff4fa3;
+    font-weight:600;
+    border-radius:30px;
+    text-decoration:none;
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.contact-btn:hover{
+    background:#ff4fa3;
+    color:white;
+    transform:translateY(-5px);
+}
+
+/* HEADER */
+header{
+    position:relative;
+    text-align:center;
+    padding:5rem 1rem;
+    background:url("2.png") center/cover no-repeat;
+    color:white;
+    overflow:hidden;
+}
+
+/* lớp phủ làm chữ nổi bật hơn */
+header::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.55)
+    );
+    z-index:0;
+}
+
+/* đảm bảo chữ nổi lên trên */
+header h1,
+header p,
+.sun{
+    position:relative;
+    z-index:1;
+}
+
+header h1{
+    font-size:3rem;
+    color:white;
+    font-weight:700;
+    letter-spacing:2px;
+    text-shadow:0 6px 18px rgba(0,0,0,0.5);
+}
+
+header p{
+    font-size:1.4rem;
+    color:#ffd6ec;
+    margin-top:10px;
+    text-shadow:0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* ☀ */
+.sun{
+    position:absolute;
+    top:20px;
+    right:40px;
+    font-size:45px;
+    animation:spin 20s linear infinite;
+}
+@keyframes spin{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+
+/* NAV */
+
+nav{
+    background:rgba(255,255,255,0.9);
+    text-align:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+    backdrop-filter:blur(8px);
+    z-index:1000;
+}
+
+nav a{
+    margin:0 25px;
+    text-decoration:none;
+    color:#ff4fa3;
+    font-size:1.1rem;
+    font-weight:600;
+    position:relative;
+}
+
+nav a::after{
+    content:"";
+    width:0%;
+    height:3px;
+    background:#5c9eff;
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    transition:0.3s;
+}
+nav a:hover::after{width:100%;}
+
+/* CONTAINER */
+.container{
+    max-width:1000px;
+    margin:60px auto;
+    padding:50px;
+    background:rgba(255,255,255,0.92);
+    border-radius:30px;
+    box-shadow:0 25px 60px rgba(0,0,0,0.1);
+}
+
+.intro-image{
+    margin-bottom:25px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.intro-image img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.intro-image img:hover{
+    transform:scale(1.05);
+}
+
+/* SECTION */
+section{
+    margin-bottom:70px;
+    opacity:0;
+    transform:translateY(40px);
+    transition:0.8s;
+}
+
+h2{
+    font-size:2.3rem;
+    color:#ff4fa3;
+    margin-bottom:25px;
+    text-shadow:0 4px 12px rgba(255,79,163,0.4);
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.member-card{
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+    transition:0.4s;
+    text-align:center;
+}
+
+.member-card:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.member-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.member-info{
+    padding:15px;
+}
+
+.member-info h3{
+    color:#ff4fa3;
+    font-size:1.1rem;
+    margin-bottom:5px;
+}
+
+.member-info p{
+    font-size:0.9rem;
+    color:#666;
+}
+.memory-card{
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+    transition:0.4s;
+}
+
+.memory-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.memory-card:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    background:rgba(255,255,255,0.9);
+    font-size:1rem;
+}
+
+/* BACK TO TOP */
+#backToTop{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    background:#ff4fa3;
+    color:white;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    text-align:center;
+    line-height:55px;
+    font-size:22px;
+    text-decoration:none;
+}
+
+/* ⭐ SAO */
+.star{
+    position:fixed;
+    color:#fff8b0;
+    animation:twinkle 2s infinite alternate;
+    pointer-events:none;
+}
+@keyframes twinkle{
+    from{opacity:0.3;}
+    to{opacity:1;}
+}
+
+/* 🌸 HOA */
+.flower{
+    position:fixed;
+    top:-20px;
+    animation:fall linear infinite;
+    pointer-events:none;
+}
+@keyframes fall{
+    to{transform:translateY(110vh) rotate(360deg);}
+}
+
+/* INTRO THANH XUÂN */
+#intro-screen {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #ff9ecf, #ffd6ec, #b5e3ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    animation: introFadeOut 1.5s ease 3s forwards;
+}
+
+.intro-text {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    animation: introFadeIn 1.5s ease;
+}
+
+@keyframes introFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes introFadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.countdown-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ffd6ec, #b5e3ff);
+    border-radius: 30px;
+    margin: 60px auto;
+    width: 85%;
+}
+
+.countdown-section h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+#countdown {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff2f92;
+    background: white;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+
+#mini-countdown-box {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background: linear-gradient(135deg, #ff9ecf, #b5e3ff);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#closeCountdown {
+    background: white;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #ff2f92;
+    font-weight: bold;
+}
+
+/* Nút mở lại */
+#openCountdown {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background: #ff2f92;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: none;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 0.8s ease;
+}
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.8s ease;
+}
+
+.reveal-left.active,
+.reveal-right.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.sparkle-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.sparkle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #fff6b7;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: sparkleMove linear infinite;
+}
+
+@keyframes sparkleMove {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+}
+
+.heart {
+    position: fixed;
+    font-size: 20px;
+    animation: floatUp 1.5s ease forwards;
+    pointer-events: none;
+}
+
+@keyframes floatUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-80px) scale(1.5);
+    }
+}
+
+.cursor-trail {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: #ff9ecf;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0.7;
+    animation: fadeOut 0.6s linear forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background: #ff2f92;
+}
+
+.cursor-outline {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #ff9ecf;
+    transition: all 0.15s ease-out;
+}
+
+#loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff9ecf, #ffd6ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    transition: opacity 0.8s ease;
+}
+
+.loader-content {
+    text-align: center;
+    color: white;
+}
+
+.loading-bar {
+    width: 250px;
+    height: 6px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.loading-fill {
+    height: 100%;
+    width: 0;
+    background: white;
+    animation: loading 2s ease forwards;
+}
+
+@keyframes loading {
+    to {
+        width: 100%;
+    }
+}
+
+
+
+
+</style>
+</head>
+
+<body id="top">
+
+<div id="loading-screen">
+    <div class="loader-content">
+        <h1>12A2 💗</h1>
+        <div class="loading-bar">
+            <div class="loading-fill"></div>
+        </div>
+    </div>
+</div>
+
+
+<div id="intro-screen">
+    <div class="intro-text">
+        ✨ Một phần thanh xuân của chúng ta bắt đầu từ đây… ✨
+    </div>
+</div>
+
+
+
+<div class="rainbow"></div>
+
+<header>
+<div class="sun">☀</div>
+<h1>TRƯỜNG THPT KRÔNG BÔNG - LỚP 12A2</h1>
+<p>Kỷ niệm dưới mái trường thanh xuân</p>
+<h1>Chúng mình là lớp 12A2 💗</h1>
+<p id="typing"></p>
+</header>
+
+<nav>
+<a href="#loichao">Lời ngỏ</a>
+<a href="#thanhvien">Thành viên</a>
+<a href="#hinhanh">Các kỉ niệm đáng nhớ</a>
+<a href="#camnghi">Cảm nghĩ</a>
+<a href="lienhe.html">Liên hệ</a>
+</nav>
+
+<div class="container">
+
+<section id="loichao">
+<h2>Lời ngỏ</h2>
+
+<div class="intro-image">
+    <img src="1.png" alt="Trường THPT Krông Bông">
+</div>
+
+<p>
+Ba năm cấp ba không quá dài, nhưng đủ để lưu lại những ký ức đẹp nhất của thanh xuân...
+</p>
+</section>
+
+<section id="thanhvien">
+<h2>Thành viên lớp 12A2</h2>
+<div class="gallery">
+
+<!-- Giáo viên chủ nhiệm -->
+<div class="member-card">
+    <img src="thầy.jpg" alt="Giáo viên chủ nhiệm">
+    <div class="member-info">
+        <h3>Y Khanh Teh</h3>
+        <p>Ngày sinh: 20/08/1978</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 1 -->
+<div class="member-card">
+    <img src="1.jpg" alt="Học sinh 1">
+    <div class="member-info">
+        <h3>Trần Công Định</h3>
+        <p>Ngày sinh: 15/04/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 2 -->
+<div class="member-card">
+    <img src="2.jpg" alt="Học sinh 2">
+    <div class="member-info">
+        <h3>Trần Thị Bích Hậu</h3>
+        <p>Ngày sinh: 08/12/2007</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 3 -->
+<div class="member-card">
+    <img src="3.jpg" alt="Học sinh 3">
+    <div class="member-info">
+        <h3>Nguyễn Thị Minh Hiền</h3>
+        <p>Ngày sinh: 06/08/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 4 -->
+<div class="member-card">
+    <img src="4.jpg" alt="Học sinh 4">
+    <div class="member-info">
+        <h3>Nguyễn Hữu Văn Hóa</h3>
+        <p>Ngày sinh: 20/08/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 5 -->
+<div class="member-card">
+    <img src="5.jpg" alt="Học sinh 5">
+    <div class="member-info">
+        <h3>Hoàng Triệu Huy</h3>
+        <p>Ngày sinh: 20/03/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 6 -->
+<div class="member-card">
+    <img src="6.jpg" alt="Học sinh 6">
+    <div class="member-info">
+        <h3>Nguyễn Đình Huy</h3>
+        <p>Ngày sinh: 03/05/2007</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 7 -->
+<div class="member-card">
+    <img src="7.jpg" alt="Học sinh 7">
+    <div class="member-info">
+        <h3>Nguyễn Thị Mỹ Hưng</h3>
+        <p>Ngày sinh: 25/02/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 8 -->
+<div class="member-card">
+    <img src="8.jpg" alt="Học sinh 8">
+    <div class="member-info">
+        <h3>Huỳnh Thị Thanh Hương</h3>
+        <p>Ngày sinh: 15/05/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 9 -->
+<div class="member-card">
+    <img src="9.jpg" alt="Học sinh 9">
+    <div class="member-info">
+        <h3>Nguyễn Thị Châu Hương</h3>
+        <p>Ngày sinh: 13/02/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 10 -->
+<div class="member-card">
+    <img src="10.jpg" alt="Học sinh 10">
+    <div class="member-info">
+        <h3>Nguyễn Trần Văn Hy</h3>
+        <p>Ngày sinh: 26/07/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 11 -->
+<div class="member-card">
+    <img src="11.jpg" alt="Học sinh 11">
+    <div class="member-info">
+        <h3>Trần Nguyễn Gia Khôi</h3>
+        <p>Ngày sinh: 23/10/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 12 -->
+<div class="member-card">
+    <img src="12.jpg" alt="Học sinh 12">
+    <div class="member-info">
+        <h3>Trần Thị Thúy Kiều</h3>
+        <p>Ngày sinh: 10/07/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 13 -->
+<div class="member-card">
+    <img src="13.jpg" alt="Học sinh 13">
+    <div class="member-info">
+        <h3>Y Ly San Niê</h3>
+        <p>Ngày sinh: 20/11/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 14 -->
+<div class="member-card">
+    <img src="14.jpg" alt="Học sinh 14">
+    <div class="member-info">
+        <h3>Vương Hoàng Thảo My</h3>
+        <p>Ngày sinh: 31/10/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 15 -->
+<div class="member-card">
+    <img src="15.jpg" alt="Học sinh 15">
+    <div class="member-info">
+        <h3>Trần Hoài Nam</h3>
+        <p>Ngày sinh: 19/04/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 16 -->
+<div class="member-card">
+    <img src="16.jpg" alt="Học sinh 16">
+    <div class="member-info">
+        <h3>Nguyễn Ánh Ngọc</h3>
+        <p>Ngày sinh: 02/10/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 17 -->
+<div class="member-card">
+    <img src="17.jpg" alt="Học sinh 17">
+    <div class="member-info">
+        <h3>Nguyễn Như Ngọc</h3>
+        <p>Ngày sinh: 20/07/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 18 -->
+<div class="member-card">
+    <img src="18.jpg" alt="Học sinh 18">
+    <div class="member-info">
+        <h3>Nguyễn Thiện Nhân</h3>
+        <p>Ngày sinh: 28/10/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 19 -->
+<div class="member-card">
+    <img src="19.jpg" alt="Học sinh 19">
+    <div class="member-info">
+        <h3>Phạm Nguyễn Tuyết Nhi</h3>
+        <p>Ngày sinh: 21/11/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 20 -->
+<div class="member-card">
+    <img src="20.jpg" alt="Học sinh 20">
+    <div class="member-info">
+        <h3>H'Ninh Byă</h3>
+        <p>Ngày sinh: 07/09/2007</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 21 -->
+<div class="member-card">
+    <img src="21.jpg" alt="Học sinh 21">
+    <div class="member-info">
+        <h3>Đinh Tuyết Phi</h3>
+        <p>Ngày sinh: 29/09/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 22 -->
+<div class="member-card">
+    <img src="22.jpg" alt="Học sinh 22">
+    <div class="member-info">
+        <h3>Hoàng Công Phong</h3>
+        <p>Ngày sinh: 16/12/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 23 -->
+<div class="member-card">
+    <img src="23.jpg" alt="Học sinh 23">
+    <div class="member-info">
+        <h3>Nguyễn Thị Bích Phượng</h3>
+        <p>Ngày sinh: 02/06/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 24 -->
+<div class="member-card">
+    <img src="24.jpg" alt="Học sinh 24">
+    <div class="member-info">
+        <h3>Nguyễn Xuân Quang</h3>
+        <p>Ngày sinh: 07/09/2007</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 25 -->
+<div class="member-card">
+    <img src="25.jpg" alt="Học sinh 25">
+    <div class="member-info">
+        <h3>Tạ Anh Quân</h3>
+        <p>Ngày sinh: 01/09/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 26 -->
+<div class="member-card">
+    <img src="26.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Nguyễn Thị Quyên</h3>
+        <p>Ngày sinh: 09/08/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 27 -->
+<div class="member-card">
+    <img src="27.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Trần Văn Sỷ</h3>
+        <p>Ngày sinh: 04/11/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 28 -->
+<div class="member-card">
+    <img src="37.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Nguyễn Bình Minh Thư</h3>
+        <p>Ngày sinh: 10/01/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 29 -->
+<div class="member-card">
+    <img src="28.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Trương Anh Thư</h3>
+        <p>Ngày sinh: 08/09/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 30 -->
+<div class="member-card">
+    <img src="29.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Phạm Vũ Kiều Tiên</h3>
+        <p>Ngày sinh: 18/02/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 31 -->
+<div class="member-card">
+    <img src="30.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Trần Tiến</h3>
+        <p>Ngày sinh: 17/07/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 32 -->
+<div class="member-card">
+    <img src="31.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Bảo Toàn</h3>
+        <p>Ngày sinh: 14/10/2008</p>
+        <p>Giới tính: Nam</p>
+    </div>
+</div>
+
+<!-- Học sinh 33 -->
+<div class="member-card">
+    <img src="32.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Trần Thị Kiều Trang</h3>
+        <p>Ngày sinh: 12/08/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 34 -->
+<div class="member-card">
+    <img src="33.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Nguyễn Thị Trùy Trâm</h3>
+        <p>Ngày sinh: /2008</p>
+        <p>Giới tính: </p>
+    </div>
+</div>
+
+<!-- Học sinh 35 -->
+<div class="member-card">
+    <img src="34.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Lê Thị Hà Vy</h3>
+        <p>Ngày sinh: 15/12/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 36 -->
+<div class="member-card">
+    <img src="35.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Lê Thị Kiều Vy</h3>
+        <p>Ngày sinh: 15/05/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- Học sinh 37 -->
+<div class="member-card">
+    <img src="36.jpg" alt="Học sinh ">
+    <div class="member-info">
+        <h3>Đặng Thị Như Ý</h3>
+        <p>Ngày sinh: 27/12/2008</p>
+        <p>Giới tính: Nữ</p>
+    </div>
+</div>
+
+<!-- COPY thêm đến đủ 36 học sinh -->
+
+</div>
+</section>
+
+<section id="hinhanh">
+<h2>Các kỉ niệm đáng nhớ</h2>
+<div class="gallery">
+
+<div class="memory-card">
+    <img src="00.jpg" alt="Ảnh bạn bè">
+</div>
+
+<div class="memory-card">
+    <img src="01.jpg" alt="Ảnh thầy cô">
+</div>
+
+<div class="memory-card">
+    <img src="02.jpg" alt="Ảnh sân trường">
+</div>
+
+<div class="memory-card">
+    <img src="03.jpg" alt="Ảnh giờ ra chơi">
+</div>
+
+<div class="memory-card">
+    <img src="04.jpg" alt="Ảnh thầy cô">
+</div>
+
+<div class="memory-card">
+    <img src="05.jpg" alt="Ảnh thầy cô">
+</div>
+
+
+
+
+</div>
+</section>
+
+<section id="camnghi">
+<h2>Cảm nghĩ</h2>
+<p>Gửi tôi của những năm tháng ấy...</p>
+<p>
+Gửi tôi của những năm tháng ấy – đứa trẻ bước qua cánh cổng trường cấp ba với chiếc ba lô còn nặng mùi sách mới và trái tim thì nhẹ bẫng vì tin rằng thế giới rộng lớn bắt đầu từ con đường lát gạch trước sân trường. Có những buổi sáng nắng nghiêng qua hàng bàng, gió khẽ khàng lật trang vở, tiếng trống trường vang lên như một lời gọi rất quen, rất hiền. Khi ấy, ta chẳng biết rằng từng khoảnh khắc nhỏ bé đang lặng lẽ dệt nên một phần đời không thể quay lại.
+</p>
+<p>
+Mái trường ấy đã dạy ta cách lớn lên bằng những điều rất giản dị: học cách đến lớp đúng giờ, học cách giơ tay phát biểu dù tim đập thình thịch, học cách chấp nhận điểm chưa tròn trịa và cả những lần bị gọi tên trước lớp. Ta học cách cười trong veo dưới tán phượng đỏ rực, học cách buồn thật sâu trong một chiều mưa ngâu khi bài kiểm tra trả lại trên bàn. Mỗi cảm xúc, dù non nớt hay vụng về, đều là một nấc thang của trưởng thành.
+</p>
+<p>
+Có một thanh xuân trú ngụ trong sân trường – nơi chúng ta chạy trốn giờ ra chơi, nơi những bí mật được thì thầm dưới gốc cây già, nơi ánh mắt chạm nhau bất chợt rồi quay đi ngại ngùng. Những bức thư tay gấp vội, những dòng lưu bút viết nghiêng nghiêng, những ước mơ còn chưa gọi được tên… Tất cả từng ở đó, rất thật, rất xanh. Ta từng nghĩ mình sẽ nhớ những chiến thắng, những bảng thành tích. Nhưng rồi khi rời xa, thứ làm mắt cay lại chính là những buổi trưa nắng ngủ gật trên bàn học, là tiếng quạt trần kẽo kẹt, là mùi phấn trắng lẫn mùi mưa đầu hạ.
+</p>
+<p>
+Thầy cô – những người lặng lẽ đứng sau ánh đèn – đã trao cho ta nhiều hơn bài giảng. Họ trao sự kiên nhẫn, niềm tin và một thứ dũng khí mềm mại: dám ước mơ. Có lời nhắc nhở nghiêm khắc khiến ta rơi nước mắt, có cái gật đầu khẽ khàng khiến ta tin rằng mình có thể đi xa. Những trang giáo án mở ra không chỉ dẫn lối tri thức, mà còn dạy ta cách làm người giữa một thế giới rộng lớn và nhiều lựa chọn.
+</p>
+<p>
+Rồi một ngày, ta đứng trước bản đồ thế giới, nghe tên những thành phố xa xôi và bỗng thấy trái tim rung lên. Từ mái trường nhỏ bé ấy, những giấc mơ bắt đầu vươn tầm: đi qua biên giới, chạm vào những nền văn hóa khác, học cách sống tử tế ở bất cứ nơi đâu. Nhưng dù bước chân có đi xa đến mấy, trong hành trang của ta vẫn luôn có mùi hoa phượng, có tiếng trống trường, có một bầu trời xanh của những năm mười bảy.
+</p>
+<p>
+Ngày chia tay đến, sân trường đông hơn mọi khi mà lại trống trải lạ lùng. Ta ôm nhau cười mà nước mắt rơi lúc nào không hay. Những lời hứa “sẽ gặp lại” bay lên cùng chùm bóng, mong manh nhưng tha thiết. Cánh cổng trường khép lại phía sau, và ta biết: có những điều chỉ có thể mang theo trong ký ức. Thanh xuân không ồn ào nói lời tạm biệt; nó chỉ lặng lẽ ngoái nhìn, để lại dư âm đủ khiến ta nhớ suốt đời.
+</p>
+<p>
+Gửi tôi của những năm tháng ấy – cảm ơn vì đã dũng cảm sống trọn vẹn, dù chưa hoàn hảo. Cảm ơn mái trường đã cho ta một vùng trời để yêu, để mơ, để sai và để lớn. Nếu một ngày mệt mỏi giữa dòng đời hối hả, hãy nhớ quay về nơi có hàng cây đứng đợi, có bảng đen còn in nét phấn, có tuổi trẻ đã từng trong veo đến thế. Ở đó, ta đã học cách tin vào ngày mai – bằng trái tim của một học sinh cấp ba, thơ mộng và không gì thay thế được.</p>
+
+</section>
+
+<a href="lienhe.html" class="contact-link">
+    <div class="contact-box">
+        <h2>💌 Liên hệ với 12A2</h2>
+        <p>
+            Bạn muốn gửi lời nhắn, chia sẻ kỷ niệm hoặc gửi lời chúc đến tập thể 12A2?
+            Chúng mình luôn sẵn sàng lắng nghe 💖
+        </p>
+        <div class="contact-btn">Gửi lời nhắn ngay ✨</div>
+    </div>
+</a>
+
+<footer>
+<p><strong>Nhóm 2:</strong> Huỳnh Thị Thanh Hương, Nguyễn Thị Mỹ Hưng, Hoàng Triệu Huy, Nguyễn Đình Huy.</p>
+<p>© 2026 - Bản quyền thuộc về Tập thể lớp 12 - Trường THPT Krông Bông</p>
+
+</footer>
+
+<a href="#top" id="backToTop">↑</a>
+
+<script>
+// hiệu ứng xuất hiện
+const sections=document.querySelectorAll("section");
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.style.opacity=1;
+entry.target.style.transform="translateY(0)";
+}
+});
+});
+sections.forEach(section=>observer.observe(section));
+
+// sao
+for(let i=0;i<30;i++){
+let star=document.createElement("div");
+star.className="star";
+star.innerHTML="★";
+star.style.left=Math.random()*100+"vw";
+star.style.top=Math.random()*100+"vh";
+star.style.fontSize=Math.random()*15+10+"px";
+document.body.appendChild(star);
+}
+
+// hoa
+for(let i=0;i<20;i++){
+let flower=document.createElement("div");
+flower.className="flower";
+flower.innerHTML="🌸";
+flower.style.left=Math.random()*100+"vw";
+flower.style.animationDuration=(5+Math.random()*5)+"s";
+flower.style.fontSize=Math.random()*20+15+"px";
+document.body.appendChild(flower);
+}
+
+// mây
+for(let i=0;i<6;i++){
+let cloud=document.createElement("div");
+cloud.className="cloud";
+cloud.style.width=100+Math.random()*120+"px";
+cloud.style.height=60+Math.random()*60+"px";
+cloud.style.top=Math.random()*40+"vh";
+cloud.style.animationDuration=30+Math.random()*40+"s";
+document.body.appendChild(cloud);
+}
+</script>
+
+<div id="mini-countdown-box">
+    <div id="mini-countdown"></div>
+    <button id="closeCountdown">✖</button>
+</div>
+
+<button id="openCountdown">💖</button>
+
+<script>
+const targetDate = new Date("june 15, 2026 00:00:00").getTime();
+
+const countdownFunction = setInterval(function() {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    document.getElementById("mini-countdown").innerHTML =
+        "⏳ " + days + " ngày " + hours + " giờ";
+
+    if (distance < 0) {
+        clearInterval(countdownFunction);
+        document.getElementById("mini-countdown").innerHTML =
+            "🎓 12A2 mãi bên nhau 💖";
+    }
+}, 1000);
+
+const box = document.getElementById("mini-countdown-box");
+const closeBtn = document.getElementById("closeCountdown");
+const openBtn = document.getElementById("openCountdown");
+
+closeBtn.onclick = function() {
+    box.style.display = "none";
+    openBtn.style.display = "block";
+};
+
+openBtn.onclick = function() {
+    box.style.display = "flex";
+    openBtn.style.display = "none";
+};
+</script>
+
+<script>
+const text = "37 con người – 1 tập thể – 1000 kỷ niệm ✨";
+let i = 0;
+const speed = 60;
+const typingElement = document.getElementById("typing");
+
+function typeEffect() {
+  if (i < text.length) {
+    typingElement.innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typeEffect, speed);
+  }
+}
+
+typeEffect();
+</script>
+
+<div class="sparkle-container"></div>
+
+<script>
+const sparkleContainer = document.querySelector(".sparkle-container");
+
+function createSparkle() {
+    const sparkle = document.createElement("div");
+    sparkle.classList.add("sparkle");
+
+    sparkle.style.left = Math.random() * 100 + "vw";
+    sparkle.style.animationDuration = (Math.random() * 3 + 2) + "s";
+    sparkle.style.width = sparkle.style.height = 
+        (Math.random() * 5 + 3) + "px";
+
+    sparkleContainer.appendChild(sparkle);
+
+    setTimeout(() => {
+        sparkle.remove();
+    }, 5000);
+}
+
+setInterval(createSparkle, 300);
+</script>
+
+...
+<div class="sparkle-container"></div>
+
+<script>
+
+const sparkleContainer = document.querySelector(".sparkle-container");
+
+function createSparkle() {
+    const sparkle = document.createElement("div");
+    sparkle.classList.add("sparkle");
+
+    sparkle.style.left = Math.random() * 100 + "vw";
+    sparkle.style.animationDuration = (Math.random() * 3 + 2) + "s";
+    sparkle.style.width = sparkle.style.height = 
+        (Math.random() * 5 + 3) + "px";
+
+    sparkleContainer.appendChild(sparkle);
+
+    setTimeout(() => {
+        sparkle.remove();
+    }, 5000);
+}
+
+setInterval(createSparkle, 300);
+
+</script>
+
+
+<script>
+document.addEventListener("click", function(e) {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "💗";
+
+    heart.style.left = e.clientX + "px";
+    heart.style.top = e.clientY + "px";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 1500);
+});
+</script>
+
+<script>
+document.addEventListener("mousemove", function(e) {
+    const trail = document.createElement("div");
+    trail.classList.add("cursor-trail");
+
+    trail.style.left = e.clientX + "px";
+    trail.style.top = e.clientY + "px";
+
+    document.body.appendChild(trail);
+
+    setTimeout(() => {
+        trail.remove();
+    }, 600);
+});
+</script>
+
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+<script>
+const dot = document.querySelector(".cursor-dot");
+const outline = document.querySelector(".cursor-outline");
+
+document.addEventListener("mousemove", (e) => {
+    dot.style.left = e.clientX + "px";
+    dot.style.top = e.clientY + "px";
+
+    outline.style.left = e.clientX + "px";
+    outline.style.top = e.clientY + "px";
+});
+
+// Phóng to khi hover vào nút hoặc link
+document.querySelectorAll("a, button").forEach(el => {
+    el.addEventListener("mouseenter", () => {
+        outline.style.transform = "translate(-50%, -50%) scale(1.5)";
+    });
+
+    el.addEventListener("mouseleave", () => {
+        outline.style.transform = "translate(-50%, -50%) scale(1)";
+    });
+});
+</script>
+
+
+
+</body>
+
+
+</html>
