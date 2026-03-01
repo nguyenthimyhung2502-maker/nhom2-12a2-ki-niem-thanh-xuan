@@ -1500,10 +1500,24 @@ document.querySelectorAll("a, button").forEach(el => {
     });
 });
 </script>
+<script>
+window.addEventListener("load", function() {
+    const loadingScreen = document.getElementById("loading-screen");
 
+    setTimeout(() => {
+        loadingScreen.style.opacity = "0";
+        loadingScreen.style.pointerEvents = "none";
+
+        setTimeout(() => {
+            loadingScreen.style.display = "none";
+        }, 800);
+    }, 2000); 
+});
+</script>
 
 
 </body>
+
 
 
 </html>
