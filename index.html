@@ -21,6 +21,12 @@ body{
     color:#444;
 }
 
+    body {
+    margin: 0;
+    min-height: 100vh;          /* 👈 cao ít nhất bằng màn hình */
+    display: flex;
+    flex-direction: column;
+}
 
 .contact-link {
     text-decoration: none;
@@ -757,21 +763,20 @@ footer {
     }
 }
 
-.main-content {
-    background: transparent; 
-    padding-bottom: 120px;  
+    .main-content {
+    flex: 1;   /* 👈 đẩy footer xuống đáy */
 }
 
-footer {
+    footer {
     background: white;
     color: #333;
     padding: 30px 20px;
     text-align: center;
 
-    width: 100%;        /* full ngang */
-    margin-top: 80px;   /* cách phía trên */
+    width: 100%;
+    margin-top: 80px; /* vẫn giữ khoảng cách phía trên */
 }
-    
+
 max-width: 900px;
 margin: 80px auto;
 border-radius: 20px;
