@@ -768,8 +768,10 @@ footer {
     padding: 30px 20px;
     text-align: center;
 
-    width: 100%;        
-    margin-top: 80px;   
+    width: 100vw;              /* 👈 full toàn màn hình */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* 👈 kéo ra khỏi khung bị bó */
 }
 
     
